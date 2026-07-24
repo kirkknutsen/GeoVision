@@ -1,5 +1,5 @@
 /* ======================================================================
-   GeoSight — overlay tool design system
+   GeoVision — overlay tool design system
    ====================================================================== */
 
 :root {
@@ -127,12 +127,12 @@ body {
   color: var(--ink-300);
   position: relative;
 }
-.ext-icon.geosight {
+.ext-icon.geovision {
   background: var(--amber-soft);
   color: var(--amber);
   outline: 1px solid color-mix(in oklch, var(--amber) 40%, transparent);
 }
-.ext-icon.geosight::after {
+.ext-icon.geovision::after {
   content: '';
   position: absolute;
   top: 2px; right: 2px;
@@ -1032,7 +1032,7 @@ body {
 /* ======================================================================
    Tweaks panel positioning override
    ====================================================================== */
-.geosight-tweak-handle {
+.geovision-tweak-handle {
   position: fixed;
   bottom: 22px; left: 22px;
   z-index: 6;
@@ -1259,7 +1259,7 @@ body {
 /* Make ext-icon clickable */
 .ext-icon { cursor: pointer; transition: background 0.12s; }
 .ext-icon:hover { background: var(--surface-2); color: var(--ink-100); }
-.ext-icon.geosight:hover { background: color-mix(in oklch, var(--amber) 30%, transparent); }
+.ext-icon.geovision:hover { background: color-mix(in oklch, var(--amber) 30%, transparent); }
 
 
 /* ======================================================================
