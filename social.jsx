@@ -21,7 +21,7 @@ const CHAT_THREADS = [
 const CHAT_HISTORY = {
   maya: [
     { from: 'them', name: 'maya.k', body: 'how did you get that one so fast', time: '2:14p' },
-    { from: 'me',   body: 'GeoSight pinned the double yellows + brick semis', time: '2:14p' },
+    { from: 'me',   body: 'GeoVision pinned the double yellows + brick semis', time: '2:14p' },
     { from: 'me',   body: 'gave me UK in like 3 seconds', time: '2:14p' },
     { from: 'them', name: 'maya.k', body: "ok i'm switching extensions", time: '2:15p' },
     { from: 'them', name: 'maya.k', body: 'one more round?', time: '2:18p' },
