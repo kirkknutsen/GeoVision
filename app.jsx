@@ -36,7 +36,7 @@ function BrowserChrome({ closed, onReopen }) {
       <div className="ext-icons">
         <div className="ext-icon"><APP_I.Camera className="ic-sm" /></div>
         <div className="ext-icon"><APP_I.Settings className="ic-sm" /></div>
-        <div className="ext-icon geosight" title={closed ? 'Reopen GeoSight' : 'GeoSight active'} onClick={onReopen}>
+        <div className="ext-icon GeoVision" title={closed ? 'Reopen GeoVision' : 'GeoVision active'} onClick={onReopen}>
           <span style={{fontFamily:'var(--font-mono)', fontSize:10, fontWeight:700}}>GS</span>
         </div>
       </div>
@@ -162,7 +162,7 @@ function App() {
           <div className="titlebar">
             <div className="brand">
               <span className="brand-mark">GS</span>
-              <span>GeoSight</span>
+              <span>GeoVision</span>
               <span className="brand-version">v0.4 · beta</span>
             </div>
             <div className="titlebar-spacer" />
@@ -207,7 +207,7 @@ function App() {
       </div>
 
       {/* Tweaks panel */}
-      <window.TweaksPanel title="GeoSight Tweaks">
+      <window.TweaksPanel title="GeoVision Tweaks">
         <window.TweakSection label="Position">
           <window.TweakRadio label="Dock"
             options={[
